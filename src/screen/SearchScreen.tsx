@@ -93,7 +93,7 @@ const SearchScreen: React.FC<props> = ({Screen, country}) => {
                   Alert.alert('TextFiled', 'Please enter country name!');
                 }
               }}>
-              <Text style={Styles.LoginButtonTextStyle}>Search</Text>
+              <Text style={Styles.LoginButtonTextStyle}>Submit</Text>
             </TouchableOpacity>
           </View>
         </KeyboardAvoidingView>
